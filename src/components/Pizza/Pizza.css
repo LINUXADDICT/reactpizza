@@ -1,0 +1,60 @@
+.Pizza {
+    width: 100%;
+    margin: auto;
+    height: 605px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*@media (min-width: 500px) and (min-height: 400px ) {*/
+/*    .Pizza {*/
+/*        width: 350px;*/
+/*        height: 300px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 500px) and (min-height: 401px ) {*/
+/*    .Pizza {*/
+/*        width: 450px;*/
+/*        height: 400px;*/
+/*    }*/
+/*}*/
+@media (min-width: 1000px) and (min-height: 700px ) {
+    .Pizza {
+        width: 700px;
+        height: 600px;
+    }
+}
+
+.plate {
+    width: 600px;
+    height: 600px;
+    border-radius: 500px;
+    background: #4a1804;
+    position: relative;
+    left: 100px;
+}
+.pizzabase1 {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    margin: 25px;
+    border-radius: 50%;
+    background: #e09b31;
+}
+.pizzabase2 {
+    width: 515px;
+    height: 515px;
+    position: absolute;
+    margin: 43px;
+    border-radius: 50%;
+    background: #ffc61c;
+}
+.addIngredients {
+    margin: auto;
+    position: relative;
+    padding-top: 50%;
+    text-align: center;
+    font-size: 30px;
+}
